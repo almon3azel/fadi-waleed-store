@@ -66,7 +66,7 @@
       "icon": "هه",
       "price": 550,
       "badge": "📌",
-      "active": true,
+      "active": false,
       "endDate": null
     }
   ],
