@@ -57,19 +57,7 @@
       "active": true
     }
   ],
-  "offers": [
-    {
-      "id": "offer_001",
-      "name": "عرض على التوثيق ي برنس",
-      "description": "توثيق 3 شهور شرعي منصه ب ضمان كامل فترته",
-      "category": "📌",
-      "icon": "هه",
-      "price": 550,
-      "badge": "📌",
-      "active": false,
-      "endDate": null
-    }
-  ],
+  "offers": [],
   "coupons": [
     {
       "id": "coupon_001",
