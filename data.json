@@ -57,7 +57,17 @@
       "active": true
     }
   ],
-  "offers": [],
+  "offers": [
+    {
+      "id": "offers_1794637535647",
+      "name": "توثيق 3 شهور",
+      "description": "هه",
+      "category": "هه",
+      "price": 99,
+      "active": true,
+      "icon": "✦"
+    }
+  ],
   "coupons": [
     {
       "id": "coupon_001",
