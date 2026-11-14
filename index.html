@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FADI WALEED</title>
+
+    <meta name="description" content="FADI WALEED - متجر الخدمات الرقمية">
+    <meta name="theme-color" content="#08090d">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- LOADING -->
+
+    <div id="loader" class="loader">
+        <div class="loader-logo">FW</div>
+        <div class="loader-text">FADI WALEED</div>
+    </div>
+
+
+    <!-- ANNOUNCEMENT -->
+
+    <div class="announcement" id="announcement">
+        <span id="announcementText">
+            أهلاً بك في متجر فادي وليد للخدمات الرقمية
+        </span>
+    </div>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <a href="#" class="brand">
+
+            <div class="brand-icon">FW</div>
+
+            <div class="brand-info">
+                <strong id="siteName">FADI WALEED</strong>
+                <small id="brandTitle">⍣ 𝗙𝗔𝗗𝗜 ⍣ أّلَقيِّأّدٍهّـ ⍣</small>
+            </div>
+
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+
+        <nav id="navigation">
+
+            <a href="#home">الرئيسية</a>
+            <a href="#services">الخدمات</a>
+            <a href="#offers">العروض</a>
+            <a href="#about">من أنا</a>
+            <a href="#reviews">آراء العملاء</a>
+            <a href="#contact">تواصل</a>
+
+        </nav>
+
+        <button class="theme-button" id="themeButton">
+            ◐
+        </button>
+
+    </header>
+
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <div class="hero-badge" id="heroBadge">
+                    ✦ حلول رقمية باحترافية
+                </div>
+
+                <h1 id="heroTitle">
+                    أهلاً بك في عالم
+                    <span>FADI WALEED</span>
+                </h1>
+
+                <p id="heroDescription">
+                    نوفر لك خدمات رقمية وحلول تقنية مميزة
+                    بجودة عالية واحترافية تليق بطموحاتك.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#services" class="primary-button">
+                        اكتشف خدماتنا
+                    </a>
+
+                    <a href="#contact" class="secondary-button">
+                        تواصل معنا
+                    </a>
+
+                </div>
+
+
+                <div class="hero-social">
+
+                    <a href="https://t.me/Fxxso" target="_blank">
+                        Telegram ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="visual-circle"></div>
+
+                <div class="visual-card">
+
+                    <div class="visual-top">
+                        <span>FADI</span>
+                        <span>✦</span>
+                    </div>
+
+                    <div class="visual-logo">
+                        FW
+                    </div>
+
+                    <div class="visual-bottom">
+                        DIGITAL SERVICES
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- STATISTICS -->
+
+        <section class="statistics">
+
+            <div class="stat-item">
+                <strong id="statServices">0</strong>
+                <span>خدمة متاحة</span>
+            </div>
+
+            <div class="stat-item">
+                <strong id="statOrders">0</strong>
+                <span>طلب</span>
+            </div>
+
+            <div class="stat-item">
+                <strong id="statOffers">0</strong>
+                <span>عرض متاح</span>
+            </div>
+
+        </section>
+
+
+
+        <!-- SERVICES -->
+
+        <section class="section" id="services">
+
+            <div class="section-heading">
+
+                <span>WHAT WE OFFER</span>
+
+                <h2 id="servicesTitle">
+                    خدماتنا المميزة
+                </h2>
+
+                <p>
+                    اختر الخدمة المناسبة لك وابدأ طلبك بسهولة.
+                </p>
+
+            </div>
+
+
+            <div class="service-tools">
+
+                <input
+                    type="search"
+                    id="serviceSearch"
+                    placeholder="ابحث عن خدمة..."
+                >
+
+                <select id="serviceCategory">
+                    <option value="all">كل التصنيفات</option>
+                </select>
+
+            </div>
+
+
+            <div class="services-grid" id="servicesGrid">
+
+                <!-- SERVICES LOADED FROM DATA.JSON -->
+
+            </div>
+
+        </section>
+
+
+
+        <!-- OFFERS -->
+
+        <section class="section offers-section" id="offers">
+
+            <div class="section-heading">
+
+                <span>LIMITED OFFERS</span>
+
+                <h2 id="offersTitle">
+                    عروضنا الحصرية
+                </h2>
+
+                <p>
+                    استفد من العروض والخصومات المتاحة.
+                </p>
+
+            </div>
+
+
+            <div class="services-grid" id="offersGrid">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT -->
+
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+
+                <span>ABOUT ME</span>
+
+                <h2 id="aboutTitle">
+                    من أنا؟
+                </h2>
+
+                <p id="aboutDescription">
+                    فادي وليد، أقدم خدمات وحلولاً رقمية
+                    باهتمام بالتفاصيل والجودة.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- REVIEWS -->
+
+        <section class="section" id="reviews">
+
+            <div class="section-heading">
+
+                <span>CLIENT REVIEWS</span>
+
+                <h2>آراء العملاء</h2>
+
+            </div>
+
+            <div class="services-grid" id="reviewsGrid">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FAQ -->
+
+        <section class="section" id="faq">
+
+            <div class="section-heading">
+
+                <span>FAQ</span>
+
+                <h2>الأسئلة الشائعة</h2>
+
+            </div>
+
+            <div id="faqContainer" class="faq-container">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="section-heading">
+
+                <span>LET'S CONNECT</span>
+
+                <h2>خلينا نبدأ مشروعك القادم</h2>
+
+                <p>
+                    عندك استفسار أو محتاج خدمة؟
+                    تواصل معانا مباشرة.
+                </p>
+
+            </div>
+
+            <a
+                href="https://t.me/Fxxso"
+                target="_blank"
+                class="primary-button"
+                id="telegramContact"
+            >
+                تواصل عبر تيليجرام ↗
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- CART BUTTON -->
+
+    <button id="cartButton" class="cart-button">
+
+        🛒
+
+        <span id="cartCount">0</span>
+
+    </button>
+
+
+
+    <!-- CART -->
+
+    <div class="cart-overlay" id="cartOverlay">
+
+        <div class="cart-box">
+
+            <div class="cart-header">
+
+                <h2>سلة الطلبات</h2>
+
+                <button id="closeCart">×</button>
+
+            </div>
+
+
+            <div id="cartItems">
+
+                سلة المشتريات فارغة.
+
+            </div>
+
+
+            <input
+                type="text"
+                id="couponInput"
+                placeholder="كود الخصم"
+            >
+
+            <button id="applyCoupon">
+                تطبيق الكوبون
+            </button>
+
+
+            <div class="cart-total">
+
+                <span>الإجمالي التقديري</span>
+
+                <strong id="cartTotal">0</strong>
+
+            </div>
+
+
+            <button id="checkoutButton" class="primary-button">
+                متابعة الطلب
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-brand">
+            FADI WALEED
+        </div>
+
+        <p>
+            جميع الحقوق محفوظة ©
+            <span id="currentYear"></span>
+            FADI WALEED
+        </p>
+
+        <a href="https://t.me/Fxxso" target="_blank">
+            Telegram ↗
+        </a>
+
+    </footer>
+
+
+
+    <!-- TOAST -->
+
+    <div id="toast" class="toast"></div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+{
+  "config": {
+    "siteName": "FADI WALEED",
+    "brandTitle": "⍣ 𝗙𝗔𝗗𝗜 ⍣ أّلَقيِّأّدٍهّـ ⍣",
+    "theme": "midnight",
+    "currency": "EGP",
+    "currencySymbol": "ج.م",
+    "telegram": "https://t.me/Fxxso",
+
+    "announcement": "أهلاً بك في متجر فادي وليد | خدمات رقمية وعروض حصرية",
+
+    "hero": {
+      "badge": "✦ حلول رقمية باحترافية",
+      "title": "أهلاً بك في عالم FADI WALEED",
+      "description": "اكتشف مجموعة مميزة من الخدمات الرقمية والحلول التقنية، بجودة عالية وتجربة احترافية."
+    },
+
+    "about": {
+      "title": "من أنا؟",
+      "description": "فادي وليد | أقدم خدمات رقمية وحلول تقنية باهتمام بالتفاصيل والجودة والاحترافية."
+    },
+
+    "sections": {
+      "services": "خدماتنا المميزة",
+      "offers": "عروضنا الحصرية"
+    },
+
+    "settings": {
+      "showServices": true,
+      "showOffers": true,
+      "showReviews": true,
+      "showFAQ": true,
+      "showAbout": true
+    }
+  },
+
+  "services": [
+    {
+      "id": "service_001",
+      "name": "خدمة رقمية تجريبية",
+      "description": "هذه خدمة تجريبية لتجربة شكل المتجر. يمكنك تعديلها أو حذفها من البوت.",
+      "category": "خدمات رقمية",
+      "icon": "✦",
+      "price": 150,
+      "active": true
+    },
+    {
+      "id": "service_002",
+      "name": "خدمة تقنية تجريبية",
+      "description": "مثال لخدمة تقنية قابلة للتعديل من لوحة التحكم.",
+      "category": "خدمات تقنية",
+      "icon": "⚡",
+      "price": 250,
+      "active": true
+    },
+    {
+      "id": "service_003",
+      "name": "خدمة مخصصة",
+      "description": "خدمة تجريبية بسعر يتم تحديده عند التواصل.",
+      "category": "خدمات خاصة",
+      "icon": "💎",
+      "price": null,
+      "active": true
+    }
+  ],
+
+  "offers": [
+    {
+      "id": "offer_001",
+      "name": "عرض تجريبي",
+      "description": "عرض تجريبي يمكنك استبداله بعروضك الحقيقية.",
+      "category": "عروض خاصة",
+      "icon": "🔥",
+      "price": 100,
+      "badge": "عرض خاص",
+      "active": true,
+      "endDate": null
+    }
+  ],
+
+  "coupons": [
+    {
+      "id": "coupon_001",
+      "code": "FADI10",
+      "type": "percentage",
+      "value": 10,
+      "minimum": 0,
+      "active": true,
+      "expiresAt": null
+    },
+    {
+      "id": "coupon_002",
+      "code": "WELCOME20",
+      "type": "percentage",
+      "value": 20,
+      "minimum": 200,
+      "active": true,
+      "expiresAt": null
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": "review_001",
+      "name": "عميل تجريبي",
+      "text": "هذا تقييم تجريبي لمعاينة شكل قسم آراء العملاء.",
+      "rating": 5,
+      "active": true
+    },
+    {
+      "id": "review_002",
+      "name": "عميل آخر",
+      "text": "يمكنك إضافة تقييمات العملاء الحقيقية من البوت.",
+      "rating": 5,
+      "active": true
+    }
+  ],
+
+  "faqs": [
+    {
+      "id": "faq_001",
+      "question": "كيف أطلب خدمة؟",
+      "answer": "اختر الخدمة المناسبة وأضفها إلى السلة ثم تابع خطوات الطلب.",
+      "active": true
+    },
+    {
+      "id": "faq_002",
+      "question": "كيف أتواصل مع فادي؟",
+      "answer": "يمكنك التواصل مباشرة عبر تيليجرام من خلال الرابط الموجود بالموقع.",
+      "active": true
+    },
+    {
+      "id": "faq_003",
+      "question": "هل يمكن الحصول على خدمة مخصصة؟",
+      "answer": "نعم، تواصل معنا عبر تيليجرام لعرض طلبك.",
+      "active": true
+    }
+  ]
+}
