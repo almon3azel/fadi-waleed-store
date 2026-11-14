@@ -1,4 +1,3 @@
-
 {
   "config": {
     "siteName": "FADI WALEED",
@@ -7,25 +6,20 @@
     "currency": "EGP",
     "currencySymbol": "ج.م",
     "telegram": "https://t.me/Fxxso",
-
     "announcement": "أهلاً بك في متجر فادي وليد | خدمات رقمية وعروض حصرية",
-
     "hero": {
       "badge": "✦ حلول رقمية باحترافية",
       "title": "أهلاً بك في عالم FADI WALEED",
       "description": "اكتشف مجموعة مميزة من الخدمات الرقمية والحلول التقنية، بجودة عالية وتجربة احترافية."
     },
-
     "about": {
       "title": "من أنا؟",
       "description": "فادي وليد | أقدم خدمات رقمية وحلول تقنية باهتمام بالتفاصيل والجودة والاحترافية."
     },
-
     "sections": {
       "services": "خدماتنا المميزة",
       "offers": "عروضنا الحصرية"
     },
-
     "settings": {
       "showServices": true,
       "showOffers": true,
@@ -34,7 +28,6 @@
       "showAbout": true
     }
   },
-
   "services": [
     {
       "id": "service_001",
@@ -64,11 +57,10 @@
       "active": true
     }
   ],
-
   "offers": [
     {
       "id": "offer_001",
-      "name": "عرض تجريبي",
+      "name": "عرض على التوثيق ي برنس",
       "description": "عرض تجريبي يمكنك استبداله بعروضك الحقيقية.",
       "category": "عروض خاصة",
       "icon": "🔥",
@@ -78,7 +70,6 @@
       "endDate": null
     }
   ],
-
   "coupons": [
     {
       "id": "coupon_001",
@@ -99,7 +90,6 @@
       "expiresAt": null
     }
   ],
-
   "reviews": [
     {
       "id": "review_001",
@@ -116,7 +106,6 @@
       "active": true
     }
   ],
-
   "faqs": [
     {
       "id": "faq_001",
